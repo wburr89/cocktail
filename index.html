@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktail Finder</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://use.fontawesome.com/ee08d7602f.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cocktail Finder</h1>
+      <p class="welcome">
+        Want to try a new cocktail? Simply search below to get started!
+      </p>
+      <div class="flex">
+        <form action="" class="flex" id="submit">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search for drinks or keywords"
+          />
+
+          <button class="search-btn" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+
+        <button class="random-btn" id="random">
+          <i class="fa fa-random"></i>
+        </button>
+      </div>
+
+      <div id="result-heading"></div>
+      <div id="drinks" class="drinks"></div>
+      <div id="single-drink"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
